@@ -15,7 +15,7 @@ export default defineConfig({
     cssCodeSplit: true,
     target: "esnext",
     lib: {
-      entry: path.resolve(__dirname, "src/index.ts"),
+      entry: path.resolve(__dirname, "src/index.js"),
       name: "ComponentLibTest",
       fileName: "npm-library-test",
     },
